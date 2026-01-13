@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+
+label {
+  display: block;
+  margin-top: 0.75rem;
+}
+
+input,
+select,
+button {
+  margin-top: 0.25rem;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  margin-top: 1rem;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+img {
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+}
